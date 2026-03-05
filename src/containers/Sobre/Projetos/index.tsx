@@ -1,8 +1,8 @@
-import Título from "../../../components/Titulo";
+import Título from '../../../components/Titulo'
 
 const Projetos = () => (
   <section>
-    <Título>Projetos</Título>
+    <Título fontSize={16}>Projetos</Título>
   </section>
 )
 
