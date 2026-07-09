@@ -1,12 +1,19 @@
+import { Button } from 'style-components';
+import Avatar from '../../components/Avatar';
+import Paragrafo from '../../components/Paragrafo';
 import Título from '../../components/Titulo'
+
+import { Descricao, BotaoTema, SidebarContainer } from './styles'
 
 const Sidebar = () => (
   <aside>
-    <img
-      src="https://avatars.githubusercontent.com/u/133266970?v=4"
-      alt="minha foto github"
-    />
-    <Título fontSize={20}>Gledson Rodrigues</Título>
+    <SidebarContainer>
+      <Avatar />
+      <Título fontSize={20}>Gledson Rodrigues</Título>
+      <Paragrafo tipo="secundario" fontSize={16}>Glen109</Paragrafo>
+      <Descricao tipo='principal' fontSize={12}>Engenheiro Full-Stack Python</Descricao>
+      <BotaoTema>Trocar tema</BotaoTema>
+    </SidebarContainer>
   </aside>
 )
 
