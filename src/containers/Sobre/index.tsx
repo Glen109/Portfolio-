@@ -12,8 +12,14 @@ const Sobre = () => (
       dolor illum doloribus?
     </Paragrafo>
     <GithubSecao>
-      <img alt='Coisa um' src="https://github-readme-stats-one.vercel.app/api?username=Glen109&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/>
-      <img alt='Coisa dois' src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=Glen109&layout=compact&theme=dracula"/>
+      <img
+        alt="Coisa um"
+        src="https://github-readme-stats-one.vercel.app/api?username=Glen109&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"
+      />
+      <img
+        alt="Coisa dois"
+        src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=Glen109&layout=compact&theme=dracula"
+      />
     </GithubSecao>
   </section>
 )

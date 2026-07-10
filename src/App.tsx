@@ -5,8 +5,8 @@ import Sidebar from './containers/Sidebar'
 import Sobre from './containers/Sobre'
 import Projetos from './containers/Sobre/Projetos'
 import EstiloGlobal, { Container } from './styles'
-import temaLight from './themes/light';
-import temaDark from './themes/dark';
+import temaLight from './themes/light'
+import temaDark from './themes/dark'
 
 function App() {
   const [estaUsandoTemaDark, setEstaUsandoTemaDark] = useState(false)

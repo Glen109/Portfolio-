@@ -12,4 +12,4 @@ export const GithubSecao = styled.div`
       width: 100%;
     }
   }
-`;
+`
